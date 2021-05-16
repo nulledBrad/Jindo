@@ -27,14 +27,14 @@ var FrontPage = React.createClass({
     */
     if(window.offline) {
       var offline_msg = <p style={{textAlign: "center"}}>You are currently OFFLINE. <br /><br />
-      In order to use the Token Factory, you need to: <br />
+      In order to use Jindo Coin, you need to: <br />
     <a style={{textAlign: "center"}} href="https://metamask.io"><img width="200px" className="logo img-responsive center-block" src="./images/mm.png"></img></a>
     </p>
 
     }
     return (
       <div>
-        <h2 style={{textAlign: 'center'}}> Token Factory (Alpha) </h2>
+        <h2 style={{textAlign: 'center'}}> Jindo (Alpha) </h2>
         <img width="200px" className="logo img-responsive center-block" src="./images/icon.png"></img>
         <br />
         <p style={{textAlign: "center"}}>
