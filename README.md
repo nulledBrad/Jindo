@@ -1,0 +1,2 @@
+# Jindo
+Jindo Coin
