@@ -85,11 +85,11 @@ contract ERC20Token is StandardToken {
 
     function ERC20Token(
         ) {
-        balances[msg.sender] = NUMBER_OF_TOKENS_HERE;               // Give the creator all initial tokens (100000 for example)
-        totalSupply = NUMBER_OF_TOKENS_HERE;                        // Update total supply (100000 for example)
-        name = "NAME OF YOUR TOKEN HERE";                                   // Set the name for display purposes
+        balances[msg.sender] = 5000000;               // Give the creator all initial tokens (100000 for example)
+        totalSupply = 100000000;                        // Update total supply (100000 for example)
+        name = "JINDO";                                   // Set the name for display purposes
         decimals = 0;                            // Amount of decimals for display purposes
-        symbol = "SYM";                               // Set the symbol for display purposes
+        symbol = "JINDO";                               // Set the symbol for display purposes
     }
 
     /* Approves and then calls the receiving contract */
