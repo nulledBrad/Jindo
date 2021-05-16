@@ -118,7 +118,7 @@ contract ERC20Token is StandardToken {
         balances[msg.sender] = 5000000;               // Give the creator all initial tokens (100000 for example)
         totalSupply = 100000000;                        // Update total supply (100000 for example)
         name = "JINDOCOIN";                                   // Set the name for display purposes
-        decimals = 4;                            // Amount of decimals for display purposes
+        decimals = 0;                            // Amount of decimals for display purposes
         symbol = "JNDO";                               // Set the symbol for display purposes
     }
 
